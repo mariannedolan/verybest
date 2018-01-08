@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "my_favorites#index"
   # Routes for the Venue resource:
   # CREATE
   get "/venues/new", :controller => "venues", :action => "new"
