@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  ActiveAdmin.routes(self)
   root :to => "my_favorites#index"
   # Routes for the Venue resource:
   # CREATE
